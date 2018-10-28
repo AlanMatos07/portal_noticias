@@ -58,12 +58,14 @@
                             <option value="journalist" <?php 
                                 if ($query[4] == "journalist") {
                                     echo "selected";
-                                }?>>Jornalista</option>
+                                }?>>Jornalista
+                            </option>
 
                             <option value="technician" <?php 
                                 if ($query[4] == "technician") {
                                     echo "selected";
-                                }?>>Técnico</option>
+                                }?>>Técnico
+                            </option>
                         </select>
 
                         <label for="login">Login</label>
